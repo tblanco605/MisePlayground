@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Instructions</h1>
+  <p>Here are the instructions for the game:</p>
+  <ol>
+    <li>Step 1</li>
+    <li>Step 2</li>
+    <li>Step 3</li>
+  </ol>
+  <div class="d-flex justify-content-center">
+    <a href="{% url 'game' %}">
+      <button class="btn-purple">Start Game</button>
+    </a>
+  </div>
+{% endblock %}
